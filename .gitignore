@@ -1,0 +1,19 @@
+
+# Dépendances
+node_modules/
+
+# Variables d'environnement
+.env
+.env.*
+
+# Fichiers générés
+dist/
+build/
+coverage/
+
+# IDE
+.idea/
+
+# Système
+.DS_Store
+Thumbs.db
