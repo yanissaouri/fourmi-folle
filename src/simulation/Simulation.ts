@@ -1,7 +1,7 @@
 import { Ants } from "../models/Ants";
 import { Grids } from "../models/Grids";
 
-class Simulation {
+export class Simulation {
 
     ants: Ants;
     grids: Grids;
@@ -12,9 +12,6 @@ class Simulation {
     }
 
     step(){
-        this.ants.x;
-        this.ants.y;
-
         if (this.grids.grid[this.ants.x][this.ants.y] === this.grids.white){
             this.ants.turnRight();
         }
