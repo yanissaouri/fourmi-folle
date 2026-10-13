@@ -19,12 +19,12 @@ class Grids{
         }
     }
     
-    switchColor(){
-        if(this.black){
-            this.black = this.white
+    switchColor(x:number, y:number){
+        if(this.grid[x][y] === 0){
+            this.grid[x][y] = 1
         }
         else {
-            this.white = this.black
+            this.grid[x][y] = 0
         }
     }
 }
