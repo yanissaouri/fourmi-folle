@@ -1,4 +1,4 @@
-class Ants {
+export class Ants {
 
     x: number;
     y: number;

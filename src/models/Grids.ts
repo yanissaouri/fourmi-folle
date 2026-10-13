@@ -1,4 +1,4 @@
-class Grids{
+export class Grids{
 
     gridRow:number = 100;
     gridColumn:number = 100;
@@ -20,11 +20,11 @@ class Grids{
     }
     
     switchColor(x:number, y:number){
-        if(this.grid[x][y] === 0){
-            this.grid[x][y] = 1
+        if(this.grid[x][y] === this.white){
+            this.grid[x][y] = this.black
         }
         else {
-            this.grid[x][y] = 0
+            this.grid[x][y] = this.white
         }
     }
 }
